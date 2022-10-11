@@ -23,7 +23,14 @@ const Blog = () => {
                 React.createContext() is all you need. It returns a consumer and a provider. Provider is a component that as it's names suggests provides the state to its children. It will hold the "store" and be the parent of all the components that might need that store. Consumer as it so happens is a component that consumes and uses the state. More information can be found on React's documentation page
                 </p>
             </div>
-            <div></div>
+            <div>
+                <h1>
+                    3.What is useRef?
+                </h1>
+                <p>
+                The useRef Hook allows you to persist values between renders. It can be used to store a mutable value that does not cause a re-render when updated. It can be used to access a DOM element directly.
+                </p>
+            </div>
         </div>
     );
 };
