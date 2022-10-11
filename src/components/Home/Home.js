@@ -9,7 +9,15 @@ const Home = () => {
 
 
     return (
+
+        
         <div>
+            <section className='header-section'>
+                <h2 className='header-text'>
+                    We don't just build websites, we build website that sells.
+                </h2>
+                
+            </section>
             
             {
 
