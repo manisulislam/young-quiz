@@ -1,0 +1,19 @@
+.header-container{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    margin-top: 40px;
+}
+.site-name{
+    color: rgb(231, 18, 150);
+    font-size: 30px;
+    text-decoration: none;
+}
+.route-container{
+    font-size: 30px;
+    text-decoration: none;
+    padding-left: 20px;
+    
+
+
+}
