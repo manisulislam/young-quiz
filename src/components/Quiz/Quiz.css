@@ -1,0 +1,39 @@
+.quiz-container{
+    border: 2px solid lightgray;
+    width: 400px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 8px lavender;
+    text-align: center;
+    
+    
+}
+.quiz-image{
+    width: 250px;
+    background-color: rgb(126, 144, 160);
+    padding: 20px;
+    border-radius: 15px;
+    margin: 10px;
+}
+.btn-one{
+    padding: 15px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 25px;
+    border-radius: 15px;
+}
+.info-container{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.name-container {
+    font-size: 20px;
+
+}
+.total-container{
+    font-size: 20px;
+}
