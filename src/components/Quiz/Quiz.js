@@ -1,3 +1,4 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Quiz.css'
@@ -26,6 +27,8 @@ const Quiz = ({quiz}) => {
                 </div>
             </div>
             <Link to={`/quiz/${id}`}>
+               
+            
             <button type='button' className='btn-one'>Start quiz</button>
 
 

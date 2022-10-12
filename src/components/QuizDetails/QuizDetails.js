@@ -1,4 +1,5 @@
 import React from 'react';
+import './QuizDetails.css'
 import { useLoaderData } from 'react-router-dom';
 import SingleQuiz from '../SingleQuiz/SingleQuiz';
 
@@ -10,12 +11,13 @@ const QuizDetails = () => {
 
     return (
         <div>
-            <h4>quiz details {quizDetails.length} </h4>
-            <p>name:{name}</p>
+            <h4 className='quiz-details'>Quiz Details {quizDetails.length} </h4>
+            <p className='topic'> <u>
+            Quiz Topic Name is {name}</u> </p>
             {
                 questions.map(singleQuiz=><SingleQuiz
                  key={singleQuiz}
-                 singleQuiz={singleQuiz}
+                  singleQuiz={singleQuiz}
                 
                 ></SingleQuiz>) 
 
