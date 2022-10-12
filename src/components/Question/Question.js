@@ -8,12 +8,14 @@ const Question = ({question,options, correctAnswer}) => {
     const  answer =(correctAnswer, options)=>{
 
         
-        console.log(options)
-        if(correctAnswer.toLowercase()===options.toLowercase()){
+        console.log(options,correctAnswer)
+        if(correctAnswer === options){
+            console.log('done')
             alert('done')
 
         }
         else{
+            console.log('wrong')
             alert('wrong')
 
         }
@@ -22,7 +24,7 @@ const Question = ({question,options, correctAnswer}) => {
     return (
         <div >
             <div  >
-                <button className='every-question' onClick={()=> answer(correctAnswer,options)}>
+                <button className='every-question' onClick={()=> answer(correctAnswer,question)}>
 
                 {question}
                 </button>
