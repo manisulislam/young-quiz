@@ -3,10 +3,13 @@ import React from 'react';
  
 import './Question.css'
 
-const Question = ({question, correctAnswer}) => {
+const Question = ({question,options, correctAnswer}) => {
    
-    const  answer =(correctAnswer, question)=>{
-        if(correctAnswer.toLowercase()===question.toLowercase()){
+    const  answer =(correctAnswer, options)=>{
+
+        
+        console.log(options)
+        if(correctAnswer.toLowercase()===options.toLowercase()){
             alert('done')
 
         }
@@ -15,10 +18,11 @@ const Question = ({question, correctAnswer}) => {
 
         }
     }
+    
     return (
         <div >
             <div  >
-                <button className='every-question' onClick={()=> answer(correctAnswer,question)}>
+                <button className='every-question' onClick={()=> answer(correctAnswer,options)}>
 
                 {question}
                 </button>

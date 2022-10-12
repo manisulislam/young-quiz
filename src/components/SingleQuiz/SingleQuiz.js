@@ -27,6 +27,7 @@ const SingleQuiz = ({singleQuiz}) => {
                     key={question.id}
                     question={question}
                     correctAnswer={correctAnswer}
+                    options={options}
                     
                     ></Question>)
                 }
