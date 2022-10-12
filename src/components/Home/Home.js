@@ -5,7 +5,8 @@ import './Home.css'
 
 const Home = () => {
     const quizes = useLoaderData()
-    console.log(quizes)
+    const moreQuizes = quizes.data;
+    
 
 
     return (
@@ -21,7 +22,7 @@ const Home = () => {
             
             {
 
-quizes.data.map(quiz =><Quiz
+moreQuizes.map(quiz =><Quiz
 key={quiz.id}
 quiz={quiz}
 
