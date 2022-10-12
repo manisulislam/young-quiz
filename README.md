@@ -10,6 +10,8 @@ https://github.com/manisulislam/young-quiz
  2. This website has a blog page. which explains about react, react router and others.
  3. Website are responsive so visitor can easily use this website. 
 
+ note: This website requirement to use toastify and fontawesome eye icon but i install this and when i emplement this i see some error. so i use alert and show button istead of toastify and fontawesome eye icon. please programming hero to see this note.
+
 
 
 
