@@ -1,9 +1,12 @@
 import React from 'react';
+import { useLoaderData } from 'react-router-dom';
 
 const Topics = () => {
+    const topics = useLoaderData();
+    console.log(topics)
     return (
         <div>
-            <h3>topics start</h3>
+            <h1>this is topis</h1>
         </div>
     );
 };
