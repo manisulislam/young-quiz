@@ -1,5 +1,8 @@
 # live website Link
 This young quiz website link here
+https://meek-alfajores-be0650.netlify.app/
+# repository link
+https://github.com/manisulislam/young-quiz
 
 
 # This website has some good feature which explain below;
